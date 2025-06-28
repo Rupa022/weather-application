@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url("background.jpeg") no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-card {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the card */
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.header {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+#city-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#search-button {
+    padding: 20px;
+    
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin: 5px 0px;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    margin-top: 20px;
+}
